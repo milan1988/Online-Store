@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">     
+    <test name="Testing">      
+        <classes>
+            <class name="tests.TestHomePage" />   
+            <class name="tests.TestProductCategory" />            
+            <class name="tests.TestCheckout" />  
+            <class name="tests.TestMyAccount"/>
+            <class name="tests.TestLogout"/>
+            <class name="tests.TestDashboard"/>
+            <class name="tests.TestProfile"/>          
+        </classes>
+    </test>
+</suite>
